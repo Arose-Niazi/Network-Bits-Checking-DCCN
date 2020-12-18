@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Network bits checker!</title>
+
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+<div class="block" style="text-align: center;">
+    <h1>Network bits checker!</h1>
+    by Arose Niazi
+</div>
+<div class="block">
+    <form autocomplete="on">
+        <table width="100%">
+            <tr>
+                <th><label for="bitsField">Bits Block</label></th>
+                <th><label for="polyField">Polynomial Powers </label></th>
+            </tr>
+            <tr>
+                <td><input type="number" maxlength="16" name="Bits" id="bitsField" placeholder="Enter Bits here" autocomplete="on" pattern="[0-1]*" required/>
+                </td>
+                <td><input type="number" name="Polynomial" id="polyField" placeholder="Enter the powers of polynomial here" required/>
+                </td>
+            </tr>
+        </table>
+        <!--<label for="typeOf">Type</label>
+        <select id="typeOf" name="Masking">
+            <option value="true">Variable Length Subnet Masking</option>
+            <option value="false">Fixed Length Subnet Masking</option>
+        </select>-->
+        <input type="button" value="Calculate" onclick="PreformCRC(Bits,Polynomial)" />
+    </form>
+</div>
+<br>
+<div class="block">
+    <P id="Output">
+
+    </P>
+</div>
+</body>
+<footer>
+    <script src="Writer.js"></script>
+    <script src="Runner.js"></script>
+</footer>
+</html>
