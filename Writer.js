@@ -4,13 +4,11 @@ let EditAbleLine = 0;
 
 function println(string)
 {
-    console.log(string);
     document.getElementById("Output").innerHTML += string.toString() + "<BR>\n";
 }
 
 function print_(string)
 {
-    console.log(string);
     document.getElementById("Output").innerHTML += string.toString();
 }
 
@@ -33,6 +31,11 @@ function printHeading(string, center, heading)
     if(center == true)
         document.getElementById("Output").innerHTML += "<div style=\"text-align: center;\"><"+heading+">" + string + "</"+heading+"></div>\n";
     else document.getElementById("Output").innerHTML += "<"+heading+">" + string + "</"+heading+">\n";
+}
+
+function clearOutput()
+{
+    document.getElementById("Output").innerHTML="";
 }
 
 function createTable(headings)

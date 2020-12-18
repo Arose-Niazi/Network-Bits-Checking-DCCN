@@ -2,54 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac542057-c0df-495d-9b9a-5755306cecb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checksum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608286782596</updated>
-      <workItem from="1608286792402" duration="10717000" />
+      <workItem from="1608286792402" duration="18345000" />
     </task>
     <servers />
   </component>
