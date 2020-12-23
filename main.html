@@ -5,6 +5,7 @@
     <title>Network bits checker!</title>
 
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
 <div class="block" style="text-align: center;">
@@ -45,6 +46,20 @@
             </tr>
         </table>
         <input type="button" value="Checksum" onclick="PreformChecksum(fc1,fc2,checkSum)" />
+        <table width="100%">
+            <tr>
+                <th><label for="dataBitsL" sty>Data Bits Block</label></th>
+                <th><label for="checkBitsL">Check Bits Block</label></th>
+            </tr>
+            <tr>
+                <td><input type="number" maxlength="16" name="dataBits" id="dataBitsL" placeholder="Data Bit String" autocomplete="on" pattern="[0-1]*" required/>
+                </td>
+                <td><input type="number" name="checkBits" id="checkBitsL" placeholder="Check Bit String"/>
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Hamming" onclick="PreformHamming(dataBits,checkBits)" />
+        <input type="button" value="Clear output" onclick="clearOutput()" />
         <!--<label for="typeOf">Type</label>
         <select id="typeOf" name="Masking">
             <option value="true">Variable Length Subnet Masking</option>

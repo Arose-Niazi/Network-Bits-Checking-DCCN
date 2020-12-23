@@ -3,15 +3,19 @@
 
 function PreformCRC(Bits, Polynomial,Remainder)
 {
-    clearOutput();
     new CRC(Bits.value,Polynomial.value,Remainder.value);
 }
 
 function PreformChecksum(first, second, output)
 {
-    clearOutput();
     new Checksum(first.value,second.value,output.value);
 }
+
+function PreformHamming(data, check)
+{
+    new Hamming(data.value,check.value);
+}
+
 
 function getSpaces(spaces)
 {
