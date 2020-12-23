@@ -20,8 +20,9 @@ class Checksum {
         printHeading("Receivers Side", true);
         println(getSpaces(2)+this.first.toString().replaceAll(","," "));
         println("+ "+this.second.toString().replaceAll(","," "));
+        println("+ "+answer.toString().replaceAll(","," "));
         println(getSpaces(2)+getUnderlines((this.length* 2)+3 ));
-        let check = this.compliment(this.add(this.add(this.first, this.second), answer));
+        let check = this.compliment(this.add(this.add(this.first, this.second, false), answer));
 
         if(parseInt(check.toString().replaceAll(",",""),2) !== 0)
         {
@@ -30,7 +31,7 @@ class Checksum {
 
     }
 
-    add(f, s)
+    add(f, s, print = true)
     {
         let first = parseInt(f.toString().replaceAll(",",""),2);
         let second = parseInt(s.toString().replaceAll(",",""),2);;
@@ -38,7 +39,7 @@ class Checksum {
         let answer = dec2bin(first+second).toString(2).split("");
         while (answer.length > this.length)
             answer.shift();
-        println(getSpaces(2)+answer.toString().replaceAll(",", " "));
+        if(print) println(getSpaces(2)+answer.toString().replaceAll(",", " "));
         return answer;
     }
 
