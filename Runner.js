@@ -4,16 +4,19 @@
 function PreformCRC(Bits, Polynomial,Remainder)
 {
     new CRC(Bits.value,Polynomial.value,Remainder.value);
+    println("<hr>");
 }
 
 function PreformChecksum(first, second, output)
 {
     new Checksum(first.value,second.value,output.value);
+    println("<hr>");
 }
 
 function PreformHamming(data, check)
 {
     new Hamming(data.value,check.value);
+    println("<hr>");
 }
 
 
