@@ -40,29 +40,33 @@ function clearOutput()
 
 function createTable(headings)
 {
-    headings = headings.split(",");
-    document.getElementById("Output").innerHTML += "<table id='TableNo"+nextTableID+"'></table>";
+    document.getElementById("Output").innerHTML += "<div class='container'><div class='table' id='TableNo"+nextTableID+"'></div></div>";
 
-    let string = "<tr>";
+    let string = "<div class='table-header'>";
     for(let i=0; i<headings.length; i++)
     {
-        string += "<th>" + headings[i] + "</th>";
-        console.log(headings[i]);
+        string += "<div class='header__item'><a id='"+headings[i]+"' class='filter__link' href='#'>" + headings[i] + "</a></div>";
     }
-    console.log(string);
 
-    document.getElementById("TableNo" + nextTableID).innerHTML += string+ "</tr>";
+    document.getElementById("TableNo" + nextTableID).innerHTML += string+ "</div>";
+    document.getElementById("TableNo" + nextTableID).innerHTML += "<div id='ContentTableNo"+nextTableID+"' class='table-content'></div>";
     nextTableID++;
 }
 
-function addTableRow(data)
+function addTableRow(data, colors)
 {
-    data = data.split(",");
-    let string = "<tr>";
+    let string = "<div class='table-row'>";
     for(let i=0; i<data.length; i++)
     {
-        string += "<td>" + data[i] + "</td>";
+        let col = "white";
+        if(colors != undefined)
+            col = colors[i];
+        if(data[i] !== 2)
+            string += "<div class='table-data' style='background-color: "+col+"'>" + data[i] + "</div>";
+        else
+            string += "<div class='table-data' style='background-color: "+col+"'> </div>";
+
     }
 
-    document.getElementById("TableNo" + (nextTableID - 1)).innerHTML += string+ "</tr>";
+    document.getElementById("ContentTableNo" + (nextTableID - 1)).innerHTML += string+ "</div>";
 }
