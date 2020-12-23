@@ -29,11 +29,11 @@ class CRC {
         else
         {
             printHeading("Senders Side", true);
-            //let divArray = [];
-            //for(let i=0; i<Polynomial[0]-1; i++)
-                //divArray.push(0);
+            let divArray = [];
+            for(let i=0; i<this.Bits.length-1; i++)
+                divArray.push(0);
 
-            hash = this.division([0,0,0]);
+            hash = this.division(divArray);
         }
 
 
